@@ -23,6 +23,7 @@ namespace _1___TwoNumberSwap
             a = int.Parse(Console.ReadLine());
             b = int.Parse(Console.ReadLine());
             Swap(a, b);
+            Console.ReadKey();
         }
     }
 }
