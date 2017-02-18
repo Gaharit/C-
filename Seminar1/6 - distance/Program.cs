@@ -14,9 +14,11 @@ namespace _6___distance
 
         static void Main(string[] args)
         {
-            double dirX = x2 - x1, dirY = y2 - y1, dirZ = z2 - z1; //Направляющий вектор
-            double conX = x3 - x1, conY = y3 - y1, conZ = z3 - z1; //Вектор, соединяющий прямую и точку
-            Console.WriteLine("The distance is: {0}", Math.Sqrt(Math.Pow(conY * dirZ - conZ * dirY, 2) + Math.Pow(conX * dirZ - conZ * dirX, 2) + Math.Pow(conX * dirY - conY * dirX, 2)) / (Math.Sqrt(Math.Pow(dirX, 2) + Math.Pow(dirY, 2) + Math.Pow(dirZ, 2))));
+            double directionX = x2 - x1, directionY = y2 - y1, directionZ = z2 - z1; //Направляющий вектор
+            double connectionX = x3 - x1, connectionY = y3 - y1, connectionZ = z3 - z1; //Вектор, соединяющий прямую и точку
+            double dividend = Math.Sqrt(Math.Pow(connectionY * directionZ - connectionZ * directionY, 2) + Math.Pow(connectionX * directionZ - connectionZ * directionX, 2) + Math.Pow(connectionX * directionY - connectionY * directionX, 2));
+            double divisor = Math.Sqrt(Math.Pow(directionX, 2) + Math.Pow(directionY, 2) + Math.Pow(directionZ, 2));
+                Console.WriteLine("The distance is: {0}",  dividend/divisor);
             Console.ReadKey();
         }
     }

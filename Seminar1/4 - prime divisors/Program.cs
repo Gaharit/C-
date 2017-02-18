@@ -16,13 +16,7 @@ namespace _4___prime_divisors
             Console.WriteLine("Enter two prime divisors:");
             x = int.Parse(Console.ReadLine());
             y = int.Parse(Console.ReadLine());
-            n--;
-            while (n != 0)
-            {
-                if (n % x == 0 || n % y == 0)
-                    count++;
-                n--;
-            }
+            count = ((--n / x) + (n / y) - (n / (x + y)));
             Console.WriteLine("The answer is {0}", count);
             Console.ReadKey();
         }

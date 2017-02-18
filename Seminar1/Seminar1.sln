@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 - leap", "5 - leap\5 - le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 - distance", "6 - distance\6 - distance.csproj", "{D78BEC8A-C7B9-46F8-ABEE-6F9C51AD684E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sum of divisors", "sum of divisors\sum of divisors.csproj", "{5C63C3D1-8035-44B9-9316-DE11A2307467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 - parallel vector", "7 - parallel vector\7 - parallel vector.csproj", "{D1744C1B-D7C1-4E9D-B9C4-B8FD827B9058}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,14 @@ Global
 		{D78BEC8A-C7B9-46F8-ABEE-6F9C51AD684E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D78BEC8A-C7B9-46F8-ABEE-6F9C51AD684E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D78BEC8A-C7B9-46F8-ABEE-6F9C51AD684E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C63C3D1-8035-44B9-9316-DE11A2307467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C63C3D1-8035-44B9-9316-DE11A2307467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C63C3D1-8035-44B9-9316-DE11A2307467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C63C3D1-8035-44B9-9316-DE11A2307467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1744C1B-D7C1-4E9D-B9C4-B8FD827B9058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1744C1B-D7C1-4E9D-B9C4-B8FD827B9058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1744C1B-D7C1-4E9D-B9C4-B8FD827B9058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1744C1B-D7C1-4E9D-B9C4-B8FD827B9058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
