@@ -13,26 +13,12 @@ namespace _3___Time_NoCycles_
             int time;
             Console.WriteLine("Enter a number of hours: ");
             time = int.Parse(Console.ReadLine());
-            if (time < 0)
-                Console.WriteLine("You cheater! :P\n");
-            else if (time < 7)
-                Console.WriteLine("The angle is: {0}\n", time * 30);
-            else if (time < 13)
-                Console.WriteLine("The angle is: {0}\n", (time - 6) * 30);
-            else if (time < 19)
-                Console.WriteLine("The angle is: {0}\n", (time - 12) * 30);
-            else if (time < 25)
-                Console.WriteLine("The angle is: {0}\n", (time - 18) * 30);
-            else Console.WriteLine("You cheater! :P\n");
+            Console.WriteLine("Angle is {0}", (Math.Abs(6 - Math.Abs(time - 6))) * 30);
         }
         static void Main(string[] args)
         {
-            do
-            {
-                Console.WriteLine();
-                Angle();
-                Console.WriteLine("Want to go again?");
-            } while (Console.ReadLine() != "no");
+            Angle();
+            Console.ReadKey();
         }
     }
 }
