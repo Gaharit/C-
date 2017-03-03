@@ -1,0 +1,6 @@
+C:\Users\user\Source\Repos\Seminar3 - Chess\Chess\Chess\bin\Debug\Chess.exe.config
+C:\Users\user\Source\Repos\Seminar3 - Chess\Chess\Chess\obj\Debug\Chess.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\Seminar3 - Chess\Chess\Chess\bin\Debug\Chess.exe
+C:\Users\user\Source\Repos\Seminar3 - Chess\Chess\Chess\bin\Debug\Chess.pdb
+C:\Users\user\Source\Repos\Seminar3 - Chess\Chess\Chess\obj\Debug\Chess.exe
+C:\Users\user\Source\Repos\Seminar3 - Chess\Chess\Chess\obj\Debug\Chess.pdb
